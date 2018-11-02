@@ -1,7 +1,7 @@
 # Usage
 
 ```
-➜  test-work gem install trivium
+➜ gem install trivium
 Fetching: trivium-0.0.2.gem (100%)
 Successfully installed trivium-0.0.2
 Parsing documentation for trivium-0.0.2
@@ -9,7 +9,7 @@ Installing ri documentation for trivium-0.0.2
 Done installing documentation for trivium after 0 seconds
 1 gem installed
 
-➜  test-work trivium InWaves
+➜ trivium InWaves
 IN WAVES
 IN WAVES
 IN WAVES
@@ -21,7 +21,7 @@ IN WAVES
 IN WAVES
 IN WAVES
 IN WAVES
-➜  test-work trivium TheSinAndTheSentence
+➜ trivium TheSinAndTheSentence
 I heard the passing bells calling out my name
 I knew I'd never see another day
 I couldn't swim against the tides of blame
