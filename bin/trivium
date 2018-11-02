@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'trivium'
+Trivium.play(ARGV[0])

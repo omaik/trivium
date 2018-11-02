@@ -1,15 +1,9 @@
-class Trivium
-  def self.play
-    puts "I heard the passing bells calling out my name"
-    sleep 0.6
-    puts "I knew I'd never see another day"
-    sleep 0.6
-    puts "I couldn't swim against the tides of blame"
-    sleep 0.6
-    puts "I knew there was no other way"
-    sleep 0.6
-    puts "You better practice your lines"
-    sleep 0.6
-    puts "And so on....."
+require_relative 'trivium/songs/base'
+require_relative 'trivium/songs/the_sin_and_the_sentence'
+require_relative 'trivium/songs/in_waves'
+
+module Trivium
+  def self.play(song)
+    Module.const_get("::Trivium::Songs::#{song}").new.play
   end
 end
